@@ -1,4 +1,4 @@
-==================================================================
+
 run_analysis.R
 ===============
 Program to find the average of each variable for each activity and each subject based on data from "Human Activity Recognition Using Smartphones Dataset"
@@ -11,17 +11,17 @@ Script Execution Requirement
 
 The script "run_analysis.R" expects the following directories and files to be present at the same level as the where the script is.
 
----|---run_analysis.R 
-   |---features.txt 
-   |---activity_labels.txt 
-   |---/train 
-       |---X_train.txt 
-	   |---y_train.txt 
-	   |---subject_train.txt 
-   |---/test
-       |---X_test.txt 
-	   |---y_test.txt 
-	   |---subject_test.txt 
+	|---run_analysis.R 
+	|---features.txt 
+	|---activity_labels.txt
+	|---/train 
+		|---X_train.txt 
+		|---y_train.txt 
+		|---subject_train.txt 
+	|---/test
+		|---X_test.txt 
+		|---y_test.txt 
+		|---subject_test.txt 
    
 
 The script finds the average of each variable for each activity and each subject based on data from "Human Activity Recognition Using Smartphones Dataset" and outputs the result in a text file.
