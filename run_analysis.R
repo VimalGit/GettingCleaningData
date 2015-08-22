@@ -48,5 +48,4 @@ biodata <- function() {
   
   ## Write the data to output table
   write.table(mean_data_sorted, file="HAR_mean_sorted.txt", row.names = FALSE)
-  
   }

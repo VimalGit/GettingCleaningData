@@ -1,13 +1,15 @@
 ==================================================================
 run_analysis.R
+===============
 Program to find the average of each variable for each activity and each subject based on data from "Human Activity Recognition Using Smartphones Dataset"
 Version 1.0
-==================================================================
+------------------------------------------------------------------
 Vimal Natarajan
-==================================================================
+------------------------------------------------------------------
+
 
 Script Execution Requirement
-==================================================================
+------------------------------------------------------------------
 
 The script "run_analysis.R" expects the following directories and files to be present at the same level as the where the script is.
 
@@ -44,7 +46,7 @@ This data frame is then sorted by Subject and the final output is writtten as a 
   
 
 The delivery package includes the following files:
-==================================================
+------------------------------------------------------------------
 
 - 'README.md': [This file] Explains how the script works and various files involved in the delivery package.
 
@@ -56,12 +58,12 @@ The delivery package includes the following files:
 
 
 Notes: 
-======
+------
 - The output is sorted by Subject.
 - Each Subject and Activity combination is a row on the output text file.
 
 License:
-========
+--------
 This programmay be used only after communicating and receiving an acknowledgement from the author. 
 
 This program is distributed AS-IS and no responsibility implied or explicit can be addressed to the author or their institutions for its use or misuse. Any commercial use is prohibited.
