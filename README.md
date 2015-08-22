@@ -3,9 +3,7 @@ run_analysis.R
 ===============
 Program to find the average of each variable for each activity and each subject based on data from "Human Activity Recognition Using Smartphones Dataset"
 Version 1.0
-------------------------------------------------------------------
 Vimal Natarajan
-------------------------------------------------------------------
 
 
 Script Execution Requirement
