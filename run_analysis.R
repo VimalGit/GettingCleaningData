@@ -47,7 +47,6 @@ biodata <- function() {
   mean_data_sorted <- arrange(mean_data, Subject)
   
   ## Write the data to output table
-  write.table(mean_data_sorted, file="samsung_mean_sorted.csv", sep=",", row.names = FALSE)
   write.table(mean_data_sorted, file="HAR_mean_sorted.txt", row.names = FALSE)
   
   }
